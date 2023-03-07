@@ -1,4 +1,3 @@
-exports.printMsg = function (string) {
+exports.printMsg = function () {
   console.log("This is a message from the demo package");
-  return string === "basith";
 };
